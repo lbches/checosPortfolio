@@ -4,7 +4,190 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./../styles/index.css">
+    <title>mehammed website</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="./../img/profile.png" alt="mehammed profile" />
+      </div>
+      <div>
+        <button class="nav-toggle" aria-label="toogle navigation">
+          <span class="humburger"></span>
+        </button>
+      </div>
+      <nav class="nav">
+        <ul class="nav nav-list">
+          <li class="nav__item"> <a class="nav__link" href="/about">About</a> </li>
+          <li class="nav__item"> <a class="nav__link" href="/about">Contact</a> </li>
+          <li class="nav__item"> <a class="nav__link" href="/about">services</a> </li>
+          <li class="nav__item"> <a class="nav__link" href="/about">Projects</a> </li>
+      </nav>
+    </header>
+
+      <!--intro section-->
+      <section class="intro" id="home">  
+        
+        <h1 class="section__title section__title--intro">
+          Hi, I am <strong>Mehammed Teshome</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Software Engineer and Full Stack Developer</p>
+        <!-- <p class="section__subtitle section__subtitle--intro">Frond end Developer</p> -->
+        <img class="intro_img" src="../img/profile-pic (73).png" alt="front end dev foto">
+        
+      </section>
+      <!--services section-->
+      <section class="my-services">
+        
+        <h1 class="section__title section_title--services">Our services</h1>
+        <div class="services">
+          <!--indivisula services section-->
+          <div class="service">
+            <h3 class="">Design</h3>
+            <p>service desctition: Vestibulum ac
+               diam sit amet quam vehicula elementum 
+               sed sit amet dui. Nulla quis lorem 
+               ut libero malesuada feugiat.service desctition: Vestibulum ac
+               diam sit amet quam vehicula elementum 
+               sed sit amet dui. Nulla quis lorem 
+               ut libero malesuada.</p>
+
+          </div>
+           <!--indivisula services section-->
+          <div class="service">
+            <h3>Full stack Developer</h3>
+            <p>service desctition: Vestibulum ac
+               diam sit amet quam vehicula elementum 
+               sed sit amet dui feugiat.service desctition: Vestibulum ac
+               diam sit amet quamugiat. Nulla quis lorem 
+               ut libero malesuada feugiat. 
+            </p>
+          </div>
+           <!--indivisula services section-->
+          <div class="service">
+            <h3>Backend service</h3>
+            <p>service desctition :Vestibulum ac
+               diam sit amet quam vehicula elementum 
+               sed sit amet dui. Nulla quis lorem 
+               ut libero malesuada feugiat.</p>
+
+          </div>
+
+        </div>
+        <div>
+          <button class="btn">show all</button>
+        </div>
+      </section>
+      <!--about me section-->
+      <section class="about-me" id="about">
+        
+        <h2 class="section__title section__title--about">Who am I ?</h2>
+        <p class="section__subtitle section__subtitle--about">Full stack Developer From Addis Ababa,Ethiopia</p>
+        <div class="about-me-body">
+          <p class="text">service desctition: Vestibulum ac
+               diam sit amet quam vehicula elementum 
+               sed sit amet dui. Nulla quis lorem 
+               ut libero malesuada feugiat.service desctition: Vestibulum ac
+               diam sit amet quam vehicula elementum 
+               sed sit amet dui. Nulla quis lorem 
+               </p>
+               <p>
+               ut libero malesuada.service desctition: Vestibulum ac
+               diam sit amet quam vehicula elementum 
+               sed sit amet dui. Nulla quis lorem 
+               ut libero malesuada feugiat.service desctition: Vestibulum ac
+               diam sit amet quam vehicula elementum 
+               sed sit amet dui. Nulla quis lorem 
+               ut libero malesuada.
+          </p>
+        </div>
+        <img class="about-me-image" src="../img/profile-pic (74).png" alt="">
+        
+        
+      </section>
+      <!--projects section-->
+      <section class="my-work" id="portfolios">
+        
+        <h2 class="section__title section__title--portfolios">My Portfolios</h2>
+        <p class="section__subtitle section__subtitle--portfolious">Here are list of small to lage projects for portfolios</p>
+        <div class="portfolios">
+          <!--projects item section-->
+          <a href="" class="portfolio__item">
+            <img class="portfolio__img" src="./../img/proj1.jpg" alt="portfolio"> 
+          </a>
+          <!--projects item section-->
+          <a href="" class="portfolio__item">
+            <img class="portfolio__img" src="./../img/proj2.jpg" alt="portfolio"> 
+          </a>
+          <!--projects item section-->
+          <a href="" class="portfolio__item">
+            <img class="portfolio__img" src="./../img/proj3.jpg" alt="portfolio"> 
+          </a>
+          <!--projects item section-->
+          
+          <!--projects item section-->
+          <a href="#" class="portfolio__item">
+            <img class="portfolio__img" src="./../img/proj5.jpg" alt="portfolio"> 
+          </a>
+          <!--projects item section-->
+          <!--projects item section-->
+          <a href="#" class="portfolio__item">
+            <img class="portfolio__img" src="./../img/proj3.jpg" alt="portfolio"> 
+          </a>
+          <!--projects item section-->
+          
+          <!--projects item section-->
+          <a href="#" class="portfolio__item">
+            <img class="portfolio__img" src="./../img/proj5.jpg" alt="portfolio"> 
+          </a>
+          <!--projects item section-->
+          
+
+        </div>
+        
+      </section>
+    <!--contact section-->
+    
+    
+    <footer class="footer">
+      <h2 class="section_title">Contact ME</h2>
+      <p>Contact me with <a href="checoslbces@gmail.com" class="footer-link">checoslbches@gmail.com</a></p>
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://github.com/lbches">
+            <i class="fab fa-github">git</i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://www.facebook.com/mehammed.teshome.18/">
+            <i class="fab fa-facebook">fb</i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://codepen.io/lbches">
+            <i class="fab fa-codepen">pen</i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://www.linkedin.com/in/checoslbches/">
+            <i class="fab fa-linkedin">Ldn</i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://twitter.com/checoslbches">
+            <i class="fab fa-twitter">tw</i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://dribbble.com/checos">
+            <i class="fab fa-dribble">drbl</i>
+          </a>
+        </li>
+      </ul>
+
+    </footer>
+  </body>
 </html>
